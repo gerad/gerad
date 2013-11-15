@@ -1,0 +1,44 @@
+{
+  "name": "gerad",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "author": "gerad <gerad@fortnightlabs.com>",
+  "repository": "git://github.com/gerad/gerad.git",
+  "main": "index",
+  "homepage": "https://github.com/gerad/gerad",
+  "contributors": [{
+    "name": "gerad"
+  }],
+  "bugs": {
+    "url": "https://github.com/gerad/gerad/issues",
+    "email": "gerad@fortnightlabs.com"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "tape": "~2.1.0"
+  },
+  "licenses": [{
+    "type": "MIT",
+    "url": "http://github.com/gerad/gerad/raw/master/LICENSE"
+  }],
+  "scripts": {
+    "test": "node ./test/index.js"
+  },
+  "testling": {
+    "files": "test/index.js",
+    "browsers": [
+      "ie/8..latest",
+      "firefox/16..latest",
+      "firefox/nightly",
+      "chrome/22..latest",
+      "chrome/canary",
+      "opera/12..latest",
+      "opera/next",
+      "safari/5.1..latest",
+      "ipad/6.0..latest",
+      "iphone/6.0..latest",
+      "android-browser/4.2..latest"
+    ]
+  }
+}
